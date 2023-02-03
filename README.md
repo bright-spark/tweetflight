@@ -1,3 +1,5 @@
+<img width="680" alt="tweetflight.wearebrightly.com" src="https://user-images.githubusercontent.com/449385/216725918-172e0ed2-2ac0-49be-8018-af5ee138f756.png">
+
 # Tweetflight
 
 Tweetflight was a project that launched ten years ago, to accompany the Brightly single "Preflight Nerves", from the album Beginnings & Endings.
