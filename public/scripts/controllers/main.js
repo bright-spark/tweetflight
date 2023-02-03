@@ -5,7 +5,7 @@
     '$scope', '$http', function($scope, $http) {
       var getTweets, requestAnimationFrame, setBarTime, setLyricSplit, tweet_fetch_attempt_limit, tweet_fetch_attempts, tweet_url;
       tweet_fetch_attempt_limit = 5;
-      tweet_url = window.location.toString().match(/127.0.0.1/) && !window.location.toString().match(/\?live=1/) ? "http://127.0.0.1:5173/tweets.json?callback=JSON_CALLBACK" : "https://tweetflight.wearebrightly.com/tweets.json?callback=JSON_CALLBACK";
+      tweet_url = "/tweets.json?callback=JSON_CALLBACK";
       document.ontouchmove = function(e) {
         if (!$scope.unsupported()) {
           return e.preventDefault();

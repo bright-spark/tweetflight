@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && npx wrangler pages publish dist"
   },
   "devDependencies": {
     "vite": "^4.1.0"
