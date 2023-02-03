@@ -1,7 +1,7 @@
 {
   "name": "tweetflight",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,14 @@
     "preview": "vite preview",
     "deploy": "vite build && npx wrangler pages publish dist"
   },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
   "devDependencies": {
+    "prettier": "^2.8.3",
     "vite": "^4.1.0"
   }
 }

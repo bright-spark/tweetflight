@@ -1,6 +1,5 @@
-(function() {
-  'use strict';
+;(function () {
+  'use strict'
 
-  angular.module('tweetflight', []);
-
-}).call(this);
+  angular.module('tweetflight', [])
+}).call(this)

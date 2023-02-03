@@ -1,52 +1,67 @@
+@charset "UTF-8";
+
 @font-face {
-  font-family: "GrotesqueStdLt";
-  src: url("/fonts/grotesquemtstd-light-webfont.eot");
-  src: url("/fonts/grotesquemtstd-light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-light-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-light-webfont.ttf") format("truetype"),
-    url("/fonts/grotesquemtstd-light-webfont.svg#GrotesqueMTStdLight") format("svg");
+  font-family: 'GrotesqueStdLt';
+  src: url('/fonts/grotesquemtstd-light-webfont.eot');
+  src: url('/fonts/grotesquemtstd-light-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/grotesquemtstd-light-webfont.woff') format('woff'),
+    url('/fonts/grotesquemtstd-light-webfont.ttf') format('truetype'),
+    url('/fonts/grotesquemtstd-light-webfont.svg#GrotesqueMTStdLight')
+      format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GrotesqueStdLtItalic";
-  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot");
-  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-lightitalic-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-lightitalic-webfont.ttf") format("truetype"),
-    url("/fonts/grotesquemtstd-lightitalic-webfont.svg#GrotesqueMTStdLightItalic") format("svg");
+  font-family: 'GrotesqueStdLtItalic';
+  src: url('/fonts/grotesquemtstd-lightitalic-webfont.eot');
+  src: url('/fonts/grotesquemtstd-lightitalic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/grotesquemtstd-lightitalic-webfont.woff') format('woff'),
+    url('/fonts/grotesquemtstd-lightitalic-webfont.ttf') format('truetype'),
+    url('/fonts/grotesquemtstd-lightitalic-webfont.svg#GrotesqueMTStdLightItalic')
+      format('svg');
   font-weight: 400;
   font-style: italic;
 }
-@charset "UTF-8";
+
 @font-face {
-  font-family: "SSSocial";
-  src: url("/fonts/ss-social-regular.eot");
-  src: url("/fonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-social-regular.woff") format("woff"), url("/fonts/ss-social-regular.ttf") format("truetype"),
-    url("/fonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-family: 'SSSocial';
+  src: url('/fonts/ss-social-regular.eot');
+  src: url('/fonts/ss-social-regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ss-social-regular.woff') format('woff'),
+    url('/fonts/ss-social-regular.ttf') format('truetype'),
+    url('/fonts/ss-social-regular.svg#SSSocialRegular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "SSStandard";
-  src: url("/fonts/ss-standard.eot");
-  src: url("/fonts/ss-standard.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-standard.woff") format("woff"), url("/fonts/ss-standard.ttf") format("truetype"), url("/fonts/ss-standard.svg#SSStandard") format("svg");
+  font-family: 'SSStandard';
+  src: url('/fonts/ss-standard.eot');
+  src: url('/fonts/ss-standard.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ss-standard.woff') format('woff'),
+    url('/fonts/ss-standard.ttf') format('truetype'),
+    url('/fonts/ss-standard.svg#SSStandard') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 .ss-icon {
-  font-family: "SSStandard";
+  font-family: 'SSStandard';
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  -o-font-feature-settings: "liga";
-  font-feature-settings: "liga";
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga=1';
+  -moz-font-feature-settings: 'liga';
+  -ms-font-feature-settings: 'liga' 1;
+  -o-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
 .ss-icon.ss-social {
-  font-family: "SSSocial";
+  font-family: 'SSSocial';
 }
 @charset "UTF-8";
 html,
@@ -163,7 +178,7 @@ q:before,
 q:after,
 blockquote:before,
 blockquote:after {
-  content: "";
+  content: '';
   content: none;
 }
 a img {
@@ -184,51 +199,64 @@ summary {
   display: block;
 }
 @font-face {
-  font-family: "SSSocial";
-  src: url("/fonts/ss-social-regular.eot");
-  src: url("/fonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-social-regular.woff") format("woff"), url("/fonts/ss-social-regular.ttf") format("truetype"),
-    url("/fonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-family: 'SSSocial';
+  src: url('/fonts/ss-social-regular.eot');
+  src: url('/fonts/ss-social-regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ss-social-regular.woff') format('woff'),
+    url('/fonts/ss-social-regular.ttf') format('truetype'),
+    url('/fonts/ss-social-regular.svg#SSSocialRegular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "SSStandard";
-  src: url("/fonts/ss-standard.eot");
-  src: url("/fonts/ss-standard.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-standard.woff") format("woff"), url("/fonts/ss-standard.ttf") format("truetype"), url("/fonts/ss-standard.svg#SSStandard") format("svg");
+  font-family: 'SSStandard';
+  src: url('/fonts/ss-standard.eot');
+  src: url('/fonts/ss-standard.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ss-standard.woff') format('woff'),
+    url('/fonts/ss-standard.ttf') format('truetype'),
+    url('/fonts/ss-standard.svg#SSStandard') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 .ss-icon {
-  font-family: "SSStandard";
+  font-family: 'SSStandard';
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  -o-font-feature-settings: "liga";
-  font-feature-settings: "liga";
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga=1';
+  -moz-font-feature-settings: 'liga';
+  -ms-font-feature-settings: 'liga' 1;
+  -o-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
 .ss-icon.ss-social {
-  font-family: "SSSocial";
+  font-family: 'SSSocial';
 }
 @font-face {
-  font-family: "GrotesqueStdLt";
-  src: url("/fonts/grotesquemtstd-light-webfont.eot");
-  src: url("/fonts/grotesquemtstd-light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-light-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-light-webfont.ttf") format("truetype"),
-    url("/fonts/grotesquemtstd-light-webfont.svg#GrotesqueMTStdLight") format("svg");
+  font-family: 'GrotesqueStdLt';
+  src: url('/fonts/grotesquemtstd-light-webfont.eot');
+  src: url('/fonts/grotesquemtstd-light-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/grotesquemtstd-light-webfont.woff') format('woff'),
+    url('/fonts/grotesquemtstd-light-webfont.ttf') format('truetype'),
+    url('/fonts/grotesquemtstd-light-webfont.svg#GrotesqueMTStdLight')
+      format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GrotesqueStdLtItalic";
-  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot");
-  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-lightitalic-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-lightitalic-webfont.ttf") format("truetype"),
-    url("/fonts/grotesquemtstd-lightitalic-webfont.svg#GrotesqueMTStdLightItalic") format("svg");
+  font-family: 'GrotesqueStdLtItalic';
+  src: url('/fonts/grotesquemtstd-lightitalic-webfont.eot');
+  src: url('/fonts/grotesquemtstd-lightitalic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/grotesquemtstd-lightitalic-webfont.woff') format('woff'),
+    url('/fonts/grotesquemtstd-lightitalic-webfont.ttf') format('truetype'),
+    url('/fonts/grotesquemtstd-lightitalic-webfont.svg#GrotesqueMTStdLightItalic')
+      format('svg');
   font-weight: 400;
   font-style: italic;
 }
@@ -240,7 +268,7 @@ summary {
 body {
   color: #eee;
   background: #111;
-  font-family: "GrotesqueStdLt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'GrotesqueStdLt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow: hidden;
   text-transform: uppercase;
 }
@@ -419,16 +447,16 @@ body ul.links.listen {
   text-align: left;
 }
 body ul.links.listen:before {
-  font-family: "SSStandard";
-  content: "\266B";
+  font-family: 'SSStandard';
+  content: '\266B';
   left: -1.5em;
 }
 body ul.links.share {
   text-align: right;
 }
 body ul.links.share:before {
-  font-family: "SSSocial";
-  content: "\F611";
+  font-family: 'SSSocial';
+  content: '\F611';
   right: -1.5em;
 }
 body ul.links li a {
@@ -465,11 +493,16 @@ body ul.tweets li.transition-height {
   transition: height 3s;
 }
 body ul.tweets li.visible {
-  -webkit-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
-  -moz-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
-  -ms-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
-  -o-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
-  animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
+  -webkit-animation: fade-in 3s 3s forwards, margin-in 3s forwards,
+    fade-back 30s 10s forwards;
+  -moz-animation: fade-in 3s 3s forwards, margin-in 3s forwards,
+    fade-back 30s 10s forwards;
+  -ms-animation: fade-in 3s 3s forwards, margin-in 3s forwards,
+    fade-back 30s 10s forwards;
+  -o-animation: fade-in 3s 3s forwards, margin-in 3s forwards,
+    fade-back 30s 10s forwards;
+  animation: fade-in 3s 3s forwards, margin-in 3s forwards,
+    fade-back 30s 10s forwards;
 }
 body ul.tweets li.visible .meta {
   -webkit-animation: show-meta 3s 6s forwards;
@@ -561,10 +594,11 @@ body .footer h1 a {
   float: left;
 }
 body .footer h1 a .brightly {
-  font-family: "GrotesqueStdLt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'GrotesqueStdLt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 body .footer h1 a .preflight-nerves {
-  font-family: "GrotesqueStdLtItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'GrotesqueStdLtItalic', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
   font-style: italic;
 }
 body .footer a.get-the-song {
@@ -860,6 +894,33 @@ body .fade-out {
   }
 }
 
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
   display: none !important;
+}
+
+.announcement {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 1rem;
+  font-size: 0.8125rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0.5rem;
+  z-index: 1000000;
+  color: #facc15;
+}
+
+.announcement .text {
+  margin-bottom: 0;
+}
+
+.announcement .text a {
+  font-style: italic;
+  border-bottom: 1px dashed currentColor;
 }
