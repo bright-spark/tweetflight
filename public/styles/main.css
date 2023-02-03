@@ -1,0 +1,865 @@
+@font-face {
+  font-family: "GrotesqueStdLt";
+  src: url("/fonts/grotesquemtstd-light-webfont.eot");
+  src: url("/fonts/grotesquemtstd-light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-light-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-light-webfont.ttf") format("truetype"),
+    url("/fonts/grotesquemtstd-light-webfont.svg#GrotesqueMTStdLight") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GrotesqueStdLtItalic";
+  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot");
+  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-lightitalic-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-lightitalic-webfont.ttf") format("truetype"),
+    url("/fonts/grotesquemtstd-lightitalic-webfont.svg#GrotesqueMTStdLightItalic") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+@charset "UTF-8";
+@font-face {
+  font-family: "SSSocial";
+  src: url("/fonts/ss-social-regular.eot");
+  src: url("/fonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-social-regular.woff") format("woff"), url("/fonts/ss-social-regular.ttf") format("truetype"),
+    url("/fonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SSStandard";
+  src: url("/fonts/ss-standard.eot");
+  src: url("/fonts/ss-standard.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-standard.woff") format("woff"), url("/fonts/ss-standard.ttf") format("truetype"), url("/fonts/ss-standard.svg#SSStandard") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+.ss-icon {
+  font-family: "SSStandard";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+.ss-icon.ss-social {
+  font-family: "SSSocial";
+}
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: 400;
+  vertical-align: middle;
+}
+q,
+blockquote {
+  quotes: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+a img {
+  border: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+@font-face {
+  font-family: "SSSocial";
+  src: url("/fonts/ss-social-regular.eot");
+  src: url("/fonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-social-regular.woff") format("woff"), url("/fonts/ss-social-regular.ttf") format("truetype"),
+    url("/fonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SSStandard";
+  src: url("/fonts/ss-standard.eot");
+  src: url("/fonts/ss-standard.eot?#iefix") format("embedded-opentype"), url("/fonts/ss-standard.woff") format("woff"), url("/fonts/ss-standard.ttf") format("truetype"), url("/fonts/ss-standard.svg#SSStandard") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+.ss-icon {
+  font-family: "SSStandard";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+.ss-icon.ss-social {
+  font-family: "SSSocial";
+}
+@font-face {
+  font-family: "GrotesqueStdLt";
+  src: url("/fonts/grotesquemtstd-light-webfont.eot");
+  src: url("/fonts/grotesquemtstd-light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-light-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-light-webfont.ttf") format("truetype"),
+    url("/fonts/grotesquemtstd-light-webfont.svg#GrotesqueMTStdLight") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GrotesqueStdLtItalic";
+  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot");
+  src: url("/fonts/grotesquemtstd-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/grotesquemtstd-lightitalic-webfont.woff") format("woff"), url("/fonts/grotesquemtstd-lightitalic-webfont.ttf") format("truetype"),
+    url("/fonts/grotesquemtstd-lightitalic-webfont.svg#GrotesqueMTStdLightItalic") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  color: #eee;
+  background: #111;
+  font-family: "GrotesqueStdLt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+body.unsupported {
+  overflow: auto;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+body.unsupported .video {
+  display: none;
+}
+body.unsupported .container .browser {
+  visibility: visible;
+  -webkit-animation: fade-in 3s forwards;
+  -moz-animation: fade-in 3s forwards;
+  -ms-animation: fade-in 3s forwards;
+  -o-animation: fade-in 3s forwards;
+  animation: fade-in 3s forwards;
+}
+body.unsupported .container .modal.welcome,
+body.unsupported .container .modal.conclusion {
+  display: none;
+}
+body.iphone .modal,
+body.iphone .footer {
+  position: static;
+  text-align: center;
+}
+body.iphone .modal {
+  margin: 0 auto !important;
+}
+body.iphone {
+  display: grid;
+  align-content: center;
+}
+body.iphone .modal .browser-link {
+  display: none;
+}
+body.iphone .footer {
+  margin-bottom: 30px;
+}
+body.iphone .footer h1 {
+  display: none;
+}
+body.iphone .footer a,
+body.iphone .footer a.get-the-song {
+  float: none;
+  margin-bottom: 10px;
+  display: block;
+}
+body .loading {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75em;
+}
+body .loading img {
+  opacity: 0.5;
+  vertical-align: middle;
+  width: 26px;
+  padding-right: 10px;
+}
+body .modal {
+  z-index: 10;
+  position: absolute;
+  width: 320px;
+  padding: 0 20px;
+  left: 50%;
+  top: 50%;
+  margin: -160px 0 0 -160px;
+  text-align: center;
+}
+body .modal h2 {
+  font-size: 1.5em;
+  margin: 20px 0 5px;
+}
+body .modal h1 {
+  font-style: italic;
+  font-size: 1.75em;
+  margin: 5px 0 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+body .modal a {
+  display: inline-block;
+  -webkit-transition: color 0.3s, background 0.3s;
+  -moz-transition: color 0.3s, background 0.3s;
+  -ms-transition: color 0.3s, background 0.3s;
+  -o-transition: color 0.3s, background 0.3s;
+  transition: color 0.3s, background 0.3s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px 6px 2px;
+  line-height: 1em;
+}
+body .modal a .ss-icon {
+  font-size: 0.5em;
+  padding: 0 5px;
+}
+body .modal a:hover {
+  background: #fff;
+  color: #000;
+}
+body .modal.welcome {
+  margin-top: -68px;
+}
+body .modal.welcome a {
+  opacity: 0;
+  display: none;
+}
+body .modal.conclusion {
+  margin-top: -230px;
+  opacity: 0;
+  visibility: hidden;
+}
+body .modal.browser {
+  /* margin-top: -213px; */
+  opacity: 0;
+  visibility: hidden;
+}
+body video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+}
+body .ss-icon {
+  font-size: 0.75em;
+}
+body a {
+  color: #999;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+body a:hover {
+  color: #fff;
+}
+body p {
+  margin-bottom: 40px;
+}
+body p.text {
+  margin-bottom: 20px;
+  font-family: Georgia, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: none;
+}
+body p.highlight {
+  font-style: italic;
+}
+body .fancy {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 0.8125em;
+  text-transform: none;
+}
+body ul.links {
+  margin: 40px 0;
+  width: 100%;
+  position: relative;
+}
+body ul.links:before {
+  position: absolute;
+  top: 0.5em;
+  font-size: 3em;
+}
+body ul.links.listen {
+  text-align: left;
+}
+body ul.links.listen:before {
+  font-family: "SSStandard";
+  content: "\266B";
+  left: -1.5em;
+}
+body ul.links.share {
+  text-align: right;
+}
+body ul.links.share:before {
+  font-family: "SSSocial";
+  content: "\F611";
+  right: -1.5em;
+}
+body ul.links li a {
+  display: inline-block;
+  margin-bottom: 4px;
+  background: rgba(255, 255, 255, 0.2);
+}
+body .replay {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+body ul.tweets {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+body ul.tweets li {
+  opacity: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+body ul.tweets li.transition-height {
+  -webkit-transition: height 3s;
+  -moz-transition: height 3s;
+  -ms-transition: height 3s;
+  -o-transition: height 3s;
+  transition: height 3s;
+}
+body ul.tweets li.visible {
+  -webkit-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
+  -moz-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
+  -ms-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
+  -o-animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
+  animation: fade-in 3s 3s forwards, margin-in 3s forwards, fade-back 30s 10s forwards;
+}
+body ul.tweets li.visible .meta {
+  -webkit-animation: show-meta 3s 6s forwards;
+  -moz-animation: show-meta 3s 6s forwards;
+  -ms-animation: show-meta 3s 6s forwards;
+  -o-animation: show-meta 3s 6s forwards;
+  animation: show-meta 3s 6s forwards;
+}
+body ul.tweets li.visible .line .start,
+body ul.tweets li.visible .line .end {
+  -webkit-animation: show-tweet 3s 6s forwards;
+  -moz-animation: show-tweet 3s 6s forwards;
+  -ms-animation: show-tweet 3s 6s forwards;
+  -o-animation: show-tweet 3s 6s forwards;
+  animation: show-tweet 3s 6s forwards;
+}
+body ul.tweets li.visible .link {
+  -webkit-animation: fade-in 3s 6s forwards;
+  -moz-animation: fade-in 3s 6s forwards;
+  -ms-animation: fade-in 3s 6s forwards;
+  -o-animation: fade-in 3s 6s forwards;
+  animation: fade-in 3s 6s forwards;
+}
+body ul.tweets li.no-tweet .line {
+  padding-left: 20%;
+}
+body ul.tweets li .meta {
+  opacity: 0;
+  border-right: 0 solid rgba(255, 255, 255, 0);
+  float: left;
+  display: block;
+  width: 25%;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.3);
+}
+body ul.tweets li .meta .date {
+  font-size: 0.6125em;
+  display: inline-block;
+  width: 100%;
+}
+body ul.tweets li .line {
+  padding-left: 25%;
+  padding-right: 40px;
+  margin-left: 10px;
+  max-width: 1400px;
+}
+body ul.tweets li .link {
+  opacity: 0;
+  margin-top: 10px;
+}
+body ul.tweets li .link a.tweet-link {
+  -webkit-transition: color 0.3s, background 0.3s;
+  -moz-transition: color 0.3s, background 0.3s;
+  -ms-transition: color 0.3s, background 0.3s;
+  -o-transition: color 0.3s, background 0.3s;
+  transition: color 0.3s, background 0.3s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: top;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px 6px 2px;
+  font-size: 0.5em;
+  line-height: 1em;
+  display: inline-block;
+}
+body ul.tweets li .link a.tweet-link .ss-icon {
+  vertical-align: top;
+}
+body ul.tweets li .link a.tweet-link:hover {
+  background: #fff;
+  color: #000;
+}
+body .footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+}
+body .footer h1 a {
+  font-size: 1.125em;
+  float: left;
+}
+body .footer h1 a .brightly {
+  font-family: "GrotesqueStdLt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body .footer h1 a .preflight-nerves {
+  font-family: "GrotesqueStdLtItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+body .footer a.get-the-song {
+  float: right;
+}
+body .footer a.get-the-song span.ss-icon {
+  -webkit-transition-property: border-right-color;
+  -moz-transition-property: border-right-color;
+  -ms-transition-property: border-right-color;
+  -o-transition-property: border-right-color;
+  transition-property: border-right-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding-right: 10px;
+  margin-right: 5px;
+  border-right: 1px solid #666;
+}
+body .footer a.get-the-song:hover span.ss-icon {
+  border-right-color: #fff;
+}
+body #roflol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+}
+body .container.ready .welcome a {
+  display: inline;
+  -webkit-animation: fade-in 3s forwards;
+  -moz-animation: fade-in 3s forwards;
+  -ms-animation: fade-in 3s forwards;
+  -o-animation: fade-in 3s forwards;
+  animation: fade-in 3s forwards;
+}
+body .container.playing .welcome {
+  -webkit-animation: fade-out 0.3s forwards;
+  -moz-animation: fade-out 0.3s forwards;
+  -ms-animation: fade-out 0.3s forwards;
+  -o-animation: fade-out 0.3s forwards;
+  animation: fade-out 0.3s forwards;
+}
+body .container.playing #roflol {
+  -webkit-animation: fade-in 3s forwards;
+  -moz-animation: fade-in 3s forwards;
+  -ms-animation: fade-in 3s forwards;
+  -o-animation: fade-in 3s forwards;
+  animation: fade-in 3s forwards;
+}
+body .container.ended .conclusion {
+  visibility: visible;
+  -webkit-animation: fade-in 3s 3s forwards;
+  -moz-animation: fade-in 3s 3s forwards;
+  -ms-animation: fade-in 3s 3s forwards;
+  -o-animation: fade-in 3s 3s forwards;
+  animation: fade-in 3s 3s forwards;
+}
+body .container.ended #roflol,
+body .container.ended .tweets {
+  -webkit-animation: fade-out 3s forwards;
+  -moz-animation: fade-out 3s forwards;
+  -ms-animation: fade-out 3s forwards;
+  -o-animation: fade-out 3s forwards;
+  animation: fade-out 3s forwards;
+}
+body .fade-out {
+  -webkit-animation: fade-out 0.3s forwards;
+  -moz-animation: fade-out 0.3s forwards;
+  -ms-animation: fade-out 0.3s forwards;
+  -o-animation: fade-out 0.3s forwards;
+  animation: fade-out 0.3s forwards;
+}
+@-moz-keyframes fade-in {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fade-in {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fade-in {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-o-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-ms-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-moz-keyframes fade-back {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-webkit-keyframes fade-back {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-o-keyframes fade-back {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-ms-keyframes fade-back {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@keyframes fade-back {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-moz-keyframes margin-in {
+  100% {
+    margin: 40px 0;
+  }
+}
+@-webkit-keyframes margin-in {
+  100% {
+    margin: 40px 0;
+  }
+}
+@-o-keyframes margin-in {
+  100% {
+    margin: 40px 0;
+  }
+}
+@-ms-keyframes margin-in {
+  100% {
+    margin: 40px 0;
+  }
+}
+@keyframes margin-in {
+  100% {
+    margin: 40px 0;
+  }
+}
+@-moz-keyframes show-meta {
+  100% {
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    margin-right: 10px;
+    padding-right: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes show-meta {
+  100% {
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    margin-right: 10px;
+    padding-right: 10px;
+    opacity: 1;
+  }
+}
+@-o-keyframes show-meta {
+  100% {
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    margin-right: 10px;
+    padding-right: 10px;
+    opacity: 1;
+  }
+}
+@-ms-keyframes show-meta {
+  100% {
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    margin-right: 10px;
+    padding-right: 10px;
+    opacity: 1;
+  }
+}
+@keyframes show-meta {
+  100% {
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    margin-right: 10px;
+    padding-right: 10px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes show-tweet {
+  100% {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+@-webkit-keyframes show-tweet {
+  100% {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+@-o-keyframes show-tweet {
+  100% {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+@-ms-keyframes show-tweet {
+  100% {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+@keyframes show-tweet {
+  100% {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}

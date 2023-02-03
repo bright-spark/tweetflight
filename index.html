@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <title>Preflight Nerves - A Twitter-powered film clip by Brightly</title>
+    <meta name="description" content="The live Twitter-powered film clip for the single Preflight Nerves, from Melbourne-based electronic folk band Brightly."/>
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" type="image/png" />
+
+    <meta property="og:title" content="Preflight Nerves - A Twitter-powered film clip by Brightly" />
+    <meta property="og:description" content="The live Twitter-powered film clip for the single Preflight Nerves, from Melbourne-based electronic folk band Brightly." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tweetflight.wearebrightly.com/" />
+    <meta property="og:image" content="https://tweetflight.wearebrightly.com/apple-touch-icon.png" />
+    <meta property="og:site_name" content="Preflight Nerves - A Twitter-powered film clip by Brightly" />
+    <meta property="fb:admins" content="500678127" />
+
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <script src="scripts/vendor/modernizr.min.js"></script>
+
+  </head>
+  <body ng-app="tweetflight" ng-controller="MainCtrl" ng-class="{unsupported: unsupported(), iphone: isiPhone()}">
+    <div class="container" ng-class="{ready: ready(), playing: playing, ended: ended}">
+      <preflight video="/preflight-nerves" ></preflight>
+      <div class="modal welcome">
+        <h2>Brightly</h2>
+        <h1>Preflight Nerves</h1>
+        <a ng-click="start()" class="btn">
+          <span class="ss-icon">play</span>
+          Start
+        </a>
+        <div class="loading ng-cloak" ng-hide="ready()">
+          <img class="spinner" src="/images/loading-animation.gif" width="16" height="16" />
+          {{status}}
+        </div>
+      </div>
+      <div class="modal conclusion">
+        <h2>Brightly</h2>
+        <h1>Preflight Nerves</h1>
+        <p>Thank you for listening</p>
+          <ul class="links listen">
+              <li><a target="blank" href="https://soundcloud.com/wearebrightly/preflight-nerves-single">Listen <span class="fancy">on</span> Soundcloud</a></li>
+              <li><a target="blank" href="https://music.wearebrightly.com/">Buy <span class="fancy">on</span> Bandcamp</a></li>
+              <li><a target="blank" href="https://beginnings.wearebrightly.com/">Join <span class="fancy">the</span> Project</a></li>
+          </ul>
+          <ul class="links share">
+              <li><a target="blank" href="https://twitter.com/wearebrightly">Follow us <span class="fancy">on</span> Twitter</a></li>
+              <li><a target="blank" href="https://facebook.com/wearebrightly">Like us <span class="fancy">on</span> Facebook</a></li>
+          </ul>
+          <div class="replay">
+            <a ng-click="replay()">
+                <span class="ss-icon">replay</span>
+                Replay
+            </a>
+          </div>
+      </div>
+      <div class="modal browser">
+        <h2>Brightly</h2>
+        <h1>Preflight Nerves</h1>
+        <p>Oh no!</p>
+        <p class="text">It looks like your browser or mobile device doesn't support the features required to view Preflight Nerves.</p>
+        <p class="text highlight">Not to worry!</p>
+          <ul class="links">
+              <li><a href="https://youtu.be/2vh0u8cs254">
+                  <span class="ss-icon ss-social">youtube</span>
+                  Watch it <span class="fancy">on</span> Youtube</a>
+              </li>
+              <li>
+                <a class="browser-link" target="blank" href="https://chrome.google.com/">
+                    <span class="ss-icon">laptop</span>
+                    Get <span class="fancy">a</span> fancy browser
+                </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h1>
+        <a href="https://preflight.wearebrightly.com" target="blank">
+          <span class="brightly">Brightly</span>
+          <span class="preflight-nerves">Preflight Nerves</span>
+        </a>
+      </h1>
+      <a class="get-the-song" href="https://music.wearebrightly.com" target="blank">
+        <span class="ss-icon">music</span>
+        Get the song
+      </a>
+    </div>
+
+    <!-- build:js scripts/scripts.js -->
+      <script src="scripts/vendor/jquery-1.9.1.min.js"></script>
+      <script src="scripts/vendor/angular.min.js"></script>
+      <script src="scripts/vendor/moment.min.js"></script>
+      <script src="scripts/app.js"></script>
+      <script src="scripts/controllers/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
